@@ -1,0 +1,80 @@
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+body{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+}
+.app{
+  width: 600px;
+  height: 800px;
+  background-color: rgb(1, 100, 100);
+  border: 2px solid rgb(5, 148, 148);
+  border-radius: 10px;
+  overflow-y: auto;
+}
+h1{
+  padding-top: 5%;
+  margin-bottom: 0%;
+  display: flex;
+  justify-content: center;
+}
+.add-task-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 90%;
+  margin-left: 5%;
+}
+input{
+  background-color: rgb(1, 95, 100);
+  border: 1px solid black;
+  font-size: 1.2rem;
+  width: 200px;
+  height: 35px;
+  margin-right: 10px;
+  padding-left: 1%;
+}
+.add-button{
+  background-color: rgb(1, 110, 124);
+  width: 39px;
+  height: 39px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  border: 2px outset black;
+}
+.add-button:hover{
+  background-color: rgb(2, 131, 148);
+}
+.add-button:active{
+  background-color: rgb(2, 158, 179);
+}
+.task-div{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.task-text{
+  font-size: 1.4rem;
+}
+.delete-button{
+  background-color: rgb(1, 110, 124);
+  width: 30px;
+  height: 30px;
+  font-size: 1rem;
+  border: 2px outset black;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.delete-button:hover{
+  background-color: rgb(2, 131, 148);
+}
+.delete-button:active{
+  background-color: rgb(2, 158, 179);
+}
+.list{
+  font-size: 1.4rem;
+  line-height: 100%;
+}
